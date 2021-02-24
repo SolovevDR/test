@@ -1,67 +1,87 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Coursera week 4</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+  
+  <title>Module 3 Solution</title>
+</head>
 <body>
-  <header>
+    <header class="nav-header">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
           <div class="navbar-brand">
-            <a href="index.html"><h1>Coursera week 4</h1></a>
+            <p class="nav-brand">Food, LLC</p>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div>
-
+        
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#s1">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Title1</a>
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-item">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
             </li>
-            <li>
-              <a href="#s2">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Title2</a>
+            <li class="text-center sushi-item">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
             </li>
-            <li>
-              <a href="#s3">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Title3</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+    </header>
 
+  <h1 class="text-center">Our Menu</h1>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6"><p class="box text" id="s1">Per cu iracundia splendide. Lorem ipsum dolor sit amet, an eos lorem ancillae expetenda, vim et utamur quaestio. Ius dicat feugiat no, vix cu modo dicat principes. Postulant assueverit ea his. Nec labore cetero theophrastus no, ei vero facer veritus nec. Solum vituperata definitiones te vis, vis alia falli doming ea. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per cu iracundia splendide. . Tation delenit percipitur at vix. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Ius dicat feugiat no, vix cu modo dicat principes. Sale liber et vel. An nam debet instructior, commodo mediocrem id cum. Sale liber et vel. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per in illud petentium iudicabit, integre sententiae pro no. Nisl omittam complectitur pro an, quem omnes munere id vix. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.<h class="title">Title 1</h></p></div>
-  <div class="col-lg-4 col-md-6"><p class="box text" id="s2">Per cu iracundia splendide. Lorem ipsum dolor sit amet, an eos lorem ancillae expetenda, vim et utamur quaestio. Ius dicat feugiat no, vix cu modo dicat principes. Postulant assueverit ea his. Nec labore cetero theophrastus no, ei vero facer veritus nec. Solum vituperata definitiones te vis, vis alia falli doming ea. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per cu iracundia splendide. . Tation delenit percipitur at vix. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Ius dicat feugiat no, vix cu modo dicat principes. Sale liber et vel. An nam debet instructior, commodo mediocrem id cum. Sale liber et vel. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per in illud petentium iudicabit, integre sententiae pro no. Nisl omittam complectitur pro an, quem omnes munere id vix. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.<h class="title">Title 2</h><h class="title bc1">Title 1</h></p></div>
-  <div class="col-lg-4 col-md-12"><p class="box text" id="s3">Per cu iracundia splendide. Lorem ipsum dolor sit amet, an eos lorem ancillae expetenda, vim et utamur quaestio. Ius dicat feugiat no, vix cu modo dicat principes. Postulant assueverit ea his. Nec labore cetero theophrastus no, ei vero facer veritus nec. Solum vituperata definitiones te vis, vis alia falli doming ea. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per cu iracundia splendide. . Tation delenit percipitur at vix. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Ius dicat feugiat no, vix cu modo dicat principes. Sale liber et vel. An nam debet instructior, commodo mediocrem id cum. Sale liber et vel. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per in illud petentium iudicabit, integre sententiae pro no. Nisl omittam complectitur pro an, quem omnes munere id vix. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.<h class="title">Title 3</h></p></div>
-</div>
+  <div class="row container container-fluid">
+  <div class="col-lg-4 col-md-6" id="chicken-div">
+    <section>
+    <div id="chicken">
+      Chicken
+    </div >
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+    </p>
+    </section>
+  </div>
+  <div class="col-lg-4 col-md-6" id="beef-div">
+    <section>
+    <div id="beef">
+      Beef
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+    </p>
+    </section>
+  </div>
+  <div class="col-lg-4 col-md-12" id="sushi-div">
+    <section>
+    <div id="sushi">
+      Sushi
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+    </p>
+    </section>
+  </div>
+  </div>
 
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
